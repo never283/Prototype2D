@@ -45,3 +45,5 @@ public class PointToPointMove : MonoBehaviour
             m_movingObject.transform.position = movePoint.transform.position;
     }
 }
+
+

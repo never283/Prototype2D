@@ -26,6 +26,8 @@ public class Buster : MonoBehaviour {
 
         if (Input.GetKeyDown(KeyCode.Space))
         { //スペースを押すと撃つ
+
+
             GameObject HitSerch = Instantiate(HitPrefab, this.transform.position, Quaternion.identity) as GameObject;
             Debug.Log("撃った");
             
